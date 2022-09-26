@@ -77,6 +77,7 @@ main{
     width: 100%;
     justify-content:center;
     text-align: center;
+    align-items: flex-end;
     color: var(--text-white);
     
 }
@@ -157,14 +158,10 @@ main{
     display: flex;
     justify-content:center;
     border-radius: 20px;
-    padding: 10px 5px;
+    padding: 10px 10px;
     
 }
-main .redes{
-    margin-left: 1270px;
-}
-
-    
+   
 .descripcion{
     font-size: 20px;
     width: 100%;
