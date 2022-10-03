@@ -69,10 +69,12 @@
        height: 300px;
     }
     .card{
-        transition-property: none;
+        transition-property: unset;
+        transition-duration: unset;
     }
     .card:hover{
-        transition-property: none;
+        transition-property:unset;
+        transition-duration: unset;
         
     }
     .card p{
