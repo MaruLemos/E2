@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Cala Minimarket</title>
     <link rel="stylesheet" href="assets\style.css">
+    <link rel="stylesheet" href="assets\mediaqueries.css">
 </head>
 <body>
     <header>
         <img src="assets\logo.png" alt="El cala logo" class="logo">
         <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="assets\menu-hamburguesa.png" alt="menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
             <ul class="navbar-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Catálogo</a></li>
@@ -18,8 +23,27 @@
                 <li><a href="#">Envios</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
-            <img src="assets\cart-icon.png" alt="carro de compras" class="cart-icon">
+            
+            <label for="cart-toggle" class="cart-label">
+                <img src="assets\cart-icon.png" alt="carro de compras" class="cart-icon">
+            </label>
+            <input type="checkbox" id="cart-toggle">
+            <div class="cart">
+                <h2>PRODUCTOS</h2>
+                <span class="divider"></span>
+                <ul class="cart-list">
+                    <li> <a href="#">Almacén</a></li>
+                    <li> <a href="#">Bebidas</a></li>
+                    <li> <a href="#">Congelados</a></li>
+                    <li> <a href="#">Snacks</a></li>
+                    <li> <a href="#">Golosinas</a></li>
+                    <li> <a href="#">Perfumería</a></li>
+                    <li> <a href="#">Limpieza</a></li>
+                   
+                </ul>
+            </div>
         </nav>
+        
     </header>
     <main>
         <div class="redes">
@@ -48,7 +72,37 @@
                 <p>Queremos que nuestros clientes tenga la mejor experiencia al momento de comprar, es por ello que la amabilidad y el respeto son nuestros valores mas destacados.</p>
             </div>
         </section>
+        <section class="cards">
+            <div class="card">
+                <img src="assets\google-map2 (1).jpg" alt="mapa-suc">
+                <p>Encontrá tu local más cercano</p>
+                <a href="#">Sucursales</a>
+            </div>
+            <div class="card">
+                <img src="assets\empleados.jpg" alt="empleado-cv">
+                <p> Te gustaria trabajar con nosotros</p>
+                <a href="#">Enviar CV</a>
+            </div>
+            <div class="card">
+                <img src="assets\medios-pagos.jpg" alt="medios-pagos">
+                <p>Conocé nuestros medios de pago</p>
+                <a href="#">Ver</a>
+            </div>
+        </section>
     </main>
+    <footer>
+            <ul class="footer-list">
+                <li>Corrientes 3298</li>
+                <li>Tel. 0341-4342245</li>
+                <li>E-mail: elcalamini@gmail.com</li>
+            </ul>
+            <img src="assets\google-map.jpeg" alt="mapa-contacto" class="footer-img">
+            <ul class="list-a">
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Contacto</a></li>
+           </ul>
+    </footer>
     
 </body>
 </html>
