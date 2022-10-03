@@ -256,11 +256,12 @@ main{
     padding: 20px 10px;
     flex-wrap: wrap;
     transition-property: all;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
+    
  }
  .card:hover{
     transition-property: all;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     width: 400px;
     height: 300px;
  }
