@@ -68,6 +68,13 @@
     .cards{
        height: 300px;
     }
+    .card{
+        transition-property: none;
+    }
+    .card:hover{
+        transition-property: none;
+        
+    }
     .card p{
         font-size: 15px;
     }
@@ -123,12 +130,8 @@
     .cart{
         width: 50%;
     }
-    .card:hover{
-        transition-property: none;
-        
-    }
+  
 
-    }
     .card img{
         height: 50px;
     }
