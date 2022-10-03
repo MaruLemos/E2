@@ -69,7 +69,7 @@
        height: 300px;
     }
     
-    }
+    
     .card p{
         font-size: 15px;
     }
@@ -81,8 +81,8 @@
         height: 80px;
     }
         
-
 }
+
 @media (max-width: 576px){
     main{
         gap: 80px;
