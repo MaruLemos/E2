@@ -1,8 +1,5 @@
-@media (hover: :hover){
-    .card¨{
-        transition-property: all;
-        transition-duration: 1s;
-    }
+@media (hover:hover){
+    
     .card:hover{
         transition-property: all;
         transition-duration: 1s;
