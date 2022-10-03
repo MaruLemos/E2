@@ -123,6 +123,12 @@
     .cart{
         width: 50%;
     }
+    .card:hover{
+        transition-property: none;
+        
+    }
+
+    }
     .card img{
         height: 50px;
     }
