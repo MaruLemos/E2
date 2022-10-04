@@ -65,6 +65,9 @@
     .descripcion{
         height: 400px;
     }
+    .cards:hover{
+        display:none
+    }
     .card p{
         font-size: 15px;
     }
