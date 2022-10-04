@@ -65,9 +65,9 @@
     .descripcion{
         height: 400px;
     }
-    .cards{
-      transition-property: initial;
-      transition-duration: initial;
+    .cards:hover{
+        transition-property: none;
+     
     }
     .card p{
         font-size: 15px;
