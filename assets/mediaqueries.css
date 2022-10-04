@@ -65,10 +65,6 @@
     .descripcion{
         height: 400px;
     }
-    .cards:hover{
-        transition-property: none;
-     
-    }
     .card p{
         font-size: 15px;
     }
@@ -127,6 +123,7 @@
     .cards{
         flex-wrap: wrap;
         height: 400px;
+        gap: 20px;
     }
   
 

@@ -237,7 +237,6 @@ main{
     height: 250px;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     padding: 30px 20px;
     margin-bottom: 100px;
    
