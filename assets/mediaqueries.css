@@ -1,12 +1,3 @@
-@media (hover:hover){
-    
-    .card:hover{
-        transition-property: all;
-        transition-duration: 1s;
-        width: 400px;
-        height: 300px;
-     }
-}
 @media(max-width: 992px){
     .navbar{
         gap: 20px;
@@ -75,10 +66,9 @@
         height: 400px;
     }
     .cards{
-       height: 300px;
+      transition-property: initial;
+      transition-duration: initial;
     }
-    
-    
     .card p{
         font-size: 15px;
     }
@@ -133,6 +123,10 @@
     }
     .cart{
         width: 50%;
+    }
+    .cards{
+        flex-wrap: wrap;
+        height: 400px;
     }
   
 
