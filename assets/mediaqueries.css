@@ -131,6 +131,7 @@
 
     .card img{
         height: 50px;
+        width: 40%
     }
     .card p{
         font-size: 15px;
